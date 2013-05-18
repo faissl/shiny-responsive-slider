@@ -1,7 +1,7 @@
 shiny-responsive-slider
 =======================
 
-A modified version of the Genesis Responsive Slider. 
+A modified version of the Genesis Responsive Slider plugin. 
 I've added an action hook so that HTML code can be added to the slider container. 
 
 An action hook was placed right before the ending div#shiny-responsive-slider (#genesis-responsive-slider).
