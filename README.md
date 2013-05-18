@@ -10,7 +10,7 @@ Action Hook:
 
      shiny_after_slider
      
-Example Usage: 
+Example Usage (place in functions.php): 
 
 /** Add an action to add a static text area with a link to the contact page. **/
 
