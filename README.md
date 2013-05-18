@@ -4,13 +4,16 @@ shiny-responsive-slider
 A modified version of the Genesis Responsive Slider. 
 I've added an action hook so that HTML code can be added to the slider container. 
 
-An action hook was placed right before the ending div#shiny-responsive-slider (#genesis-responsive-slider):
+An action hook was placed right before the ending div#shiny-responsive-slider (#genesis-responsive-slider).
 
-     action hook => shiny_after_slider
+Action Hook:
+
+     shiny_after_slider
      
 Example Usage: 
 
 /** Add an action to add a static text area with a link to the contact page. **/
+
 add_action( 'shiny_after_slider', 'shiny_slider_static_text' );
 function shiny_slider_static_text () {
   
